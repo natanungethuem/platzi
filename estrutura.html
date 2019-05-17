@@ -1,0 +1,260 @@
+1. Criando estrutura básica
+html>head+body+footer
+
+<html>
+<head></head>
+<body>
+    
+</body>
+<footer></footer>
+</html>
+
+2. Criando sessão de dados pessoais
+
+#session1.row>h1.col-12{Dados pessoais}+.col-12.desc
+
+#session1.row>h1.col-12{Dados pessoais}+.col-12.desc>p#name{João da Silva}+p#phone{+5555555555}+p>a#email[href=joao@joao.com.br]{joao@joão.com.br}
+
+<html>
+<head></head>
+<body>
+    <div id="session1" class="row">
+        <h1 class="col-12">Dados pessoais</h1>
+        <div class="col-12 desc">
+            <p id="name">João da Silva</p>
+            <p id="phone">+5555555555</p>
+            <p><a href="joao@joao.com.br" id="email">joao@joão.com.br</a></p>
+        </div>
+    </div>    
+</body>
+<footer></footer>
+</html>
+
+
+3. Criando sessão de competências
+
+#session2.row>h2.col-12.col-md-4{Competências}+.col-12.col-md-8.desc>ul>li*5
+
+<html>
+<head></head>
+<body>
+    <div id="session1" class="row">
+        <h1 class="col-12">Dados pessoais</h1>
+        <div class="col-12 desc">
+            <p id="name">João da Silva</p>
+            <p id="phone">+5555555555</p>
+            <p><a href="joao@joao.com.br" id="email">joao@joão.com.br</a></p>
+        </div>
+    </div>
+
+    #session2.row>h2.col-12.col-md-4{Competências}+.col-12.col-md-8.desc>ul>li*5
+</body>
+<footer></footer>
+</html>
+
+
+3. Criando sessão de experiências
+#session3.row>h2.col-12.col-md-4{Experiência}+.col-12.col-md-8.desc>(.col.business+.col.period+.col.desc>p*5)*3
+
+<html>
+<head></head>
+<body>
+    <div id="session1" class="row">
+        <h1 class="col-12">Dados pessoais</h1>
+        <div class="col-12 desc">
+            <p id="name">João da Silva</p>
+            <p id="phone">+5555555555</p>
+            <p><a href="joao@joao.com.br" id="email">joao@joão.com.br</a></p>
+        </div>
+    </div>
+
+    <div id="session2" class="row">
+        <h2 class="col-12 col-md-4">Competências</h2>
+        <div class="col-12 col-md-8 desc">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    #session3.row>h2.col-12.col-md-4{Experiência}+.col-12.col-md-8.desc>(.col.business+.col.period+.col.desc>p*5)*3
+</body>
+<footer></footer>
+</html>
+
+
+4. Criando sessão de formação
+#session4.row>h2.col-12.col-md-4{Formação}+.col-12.col-md-8.desc>(.col.school+.col.period+.col.desc>p*5)*3
+
+<html>
+<head></head>
+<body>
+    <div id="session1" class="row">
+        <div class="col-12 col-md-4 title">Dados pessoais</div>
+        <div class="col-12 col-md-8 desc">
+            <p id="name">João da Silva</p>
+            <p id="phone">+5555555555</p>
+            <p><a href="joao@joao.com.br" id="email">joao@joão.com.br</a></p>
+        </div>
+    </div>
+
+    <div id="session2" class="row">
+        <div class="col-12 col-md-4 title">Competências</div>
+        <div class="col-12 col-md-8 desc">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    #session4.row>h2.col-12.col-md-4{Formação}+.col-12.col-md-8.desc>(.col.school+.col.period+.col.desc>p*5)*3
+
+    <div id="session3" class="row">
+        <h2 class="col-12 col-md-4">Experiência</h2>
+        <div class="col-12 col-md-8 desc">
+            <div class="col business"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col business"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col business"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer></footer>
+</html>
+
+
+5. Criando sessão de prêmios
+
+#session5.row>h2.col-12.col-md-4{Outras informações}+.col-12.col-md-8.desc>p*5
+
+<html>
+<head></head>
+<body>
+    <div id="session1" class="row">
+        <div class="col-12 col-md-4 title">Dados pessoais</div>
+        <div class="col-12 col-md-8 desc">
+            <p id="name">João da Silva</p>
+            <p id="phone">+5555555555</p>
+            <p><a href="joao@joao.com.br" id="email">joao@joão.com.br</a></p>
+        </div>
+    </div>
+
+    <div id="session2" class="row">
+        <div class="col-12 col-md-4 title">Competências</div>
+        <div class="col-12 col-md-8 desc">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="session4" class="row">
+        <h2 class="col-12 col-md-4">Formação</h2>
+        <div class="col-12 col-md-8 desc">
+            <div class="col school"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col school"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col school"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="session3" class="row">
+        <h2 class="col-12 col-md-4">Experiência</h2>
+        <div class="col-12 col-md-8 desc">
+            <div class="col business"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col business"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col business"></div>
+            <div class="col period"></div>
+            <div class="col desc">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    #session5.row>h2.col-12.col-md-4{Outras informações}+.col-12.col-md-8.desc>p*5
+</body>
+<footer></footer>
+</html>
+
+6. Adicionar meta tag
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
