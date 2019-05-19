@@ -5,14 +5,12 @@ body {
 
 h1 {
     color: #f75d5d;
-    display: inline-block;
 }
 
 h2 {
     color: #f75d5d;
     margin-bottom: 10px;
     margin-top: 25px;
-    display: inline-block;
 }
 
 ul {
@@ -37,19 +35,33 @@ ul {
     font-weight: bold;
 }
 
+[class*="col-"] {
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
 .col-12 {
     width: 100%;
 }
 
+#name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#session1 .desc p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 @media (min-width: 768px) {
     .col-md-4 {
-        width: 33%;
-        display: inline-block;
+        width: calc( 100% * 4 / 12 );
     }
 
     .col-md-8 {
-        width: 66%;
-        display: inline-block;
+        width: calc( 100% * 8 / 12 );
     }
 
     .col-md-12 {
