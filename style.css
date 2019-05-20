@@ -108,4 +108,9 @@ ul {
     #session1 .desc .col-md-8 {
         vertical-align: top;
     }
+
+    .desc .desc, 
+    #session1 .col-md-8 {
+        border: none;
+    }
 }
