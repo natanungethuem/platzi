@@ -66,18 +66,6 @@ ul {
     border-radius: 50%;
 }
 
-#session4 {
-    background-image: url("https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-}
-
-#session3 {
-    background-image: url("https://images.unsplash.com/photo-1486010586814-abd061e90cf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-    background-attachment: fixed;
-}
-
-#session5 {
-    background-color: #BBBBBB;
-}
 
 @media (min-width: 768px) {
     .col-md-4 {
