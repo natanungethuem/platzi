@@ -55,6 +55,17 @@ ul {
     margin-bottom: 5px;
 }
 
+#session1 #image-container {
+    text-align: center;
+}
+
+#session1 #image-container img {
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+
 @media (min-width: 768px) {
     .col-md-4 {
         width: calc( 100% * 4 / 12 );
@@ -88,5 +99,13 @@ ul {
         border-top-color: #000000;
         border-top-width: 2px;
         border-top-style: solid;
+    }
+
+    #session1 #image-container img {
+        margin-bottom: 0px;
+    }
+
+    #session1 .desc .col-md-8 {
+        vertical-align: top;
     }
 }
