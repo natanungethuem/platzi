@@ -1,0 +1,14 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js" async></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body ng-app>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-4"><input type="text" ng-model="name" placeholder="Escreva aqui seu nome"></div>
+            <div class="col-12 p-2 pl-4">Olá {{ name || 'mundo'}}!</div>
+        </div>
+    </div>
+</body>
+</html>
